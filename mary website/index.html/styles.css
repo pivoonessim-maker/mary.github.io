@@ -1,0 +1,136 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: black;
+    background-color: white;
+}
+
+header {
+    background-color: pink;
+    color: black;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.search-bar {
+    display: flex;
+}
+
+.search-bar input {
+    padding: 5px;
+    width: 200px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    background-color: pink;
+    border: none;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero {
+    background-color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.products {
+    padding: 50px 20px;
+}
+
+.cart {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+#cart-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.purchase-form {
+    margin-top: 20px;
+}
+
+.purchase-form input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#purchase-btn {
+    background-color: pink;
+    border: none;
+    padding: 10px 20px;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.product img {
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.product button {
+    background-color: pink;
+    border: none;
+    padding: 10px 20px;
+    color: black;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
